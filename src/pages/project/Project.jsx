@@ -61,7 +61,7 @@ const Project = () => {
         return;
       }
 
-      await axios.put(`http://localhost:5000/api/project/${projectId}`, {
+      await axios.put(`https://dashboard-hs4hxh0d.b4a.run/api/project/${projectId}`, {
         status: newStatus,
       });
 

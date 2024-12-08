@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext();
-const URI = "http://localhost:5000";
+const URI = "https://dashboard-hs4hxh0d.b4a.run";
 
 // eslint-disable-next-line react/prop-types
 export const AuthProvider = ({ children }) => {
