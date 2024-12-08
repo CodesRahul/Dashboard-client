@@ -16,7 +16,7 @@ const Project = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("");
   const [isLoading, setIsLoading] = useState(true);
-  const pageSize = 5;
+  const pageSize = 8;
 
   useEffect(() => {
     document.title = "Projects"

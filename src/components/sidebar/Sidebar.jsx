@@ -8,7 +8,7 @@ import DashboardActive from "../../assets/Dashboard-active.svg";
 import ProjectListActive from "../../assets/Project-list-active.svg";
 import CreateProjectActive from "../../assets/create-project-active.svg";
 import Logout from "../../assets/Logout.svg";
-import "./Sidebar.css";
+import "./sidebar.css";
 
 function Sidebar() {
   const location = useLocation();
