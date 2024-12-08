@@ -17,7 +17,7 @@ export const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   useEffect(() => {
-    document.title = "Icon | Login"
+    document.title = "Login"
   }, []);
 
   const [user, setUser] = useState({
